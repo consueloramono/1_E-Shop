@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f5e16e5-5ed2-4593-8402-dc9ee48887bf" name="Changes" comment="main class and demonstating">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cart.java" afterDir="false" />
+    <list default="true" id="1f5e16e5-5ed2-4593-8402-dc9ee48887bf" name="Changes" comment="Cart update">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
     </list>
@@ -87,7 +84,7 @@
       <workItem from="1708787317096" duration="6000" />
       <workItem from="1708787349424" duration="12000" />
       <workItem from="1708787419106" duration="850000" />
-      <workItem from="1708895158361" duration="4570000" />
+      <workItem from="1708895158361" duration="4912000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -129,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708788172461</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1708900011786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708900011786</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cart update">
+      <option name="closed" value="true" />
+      <created>1708900021944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708900021944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,12 +160,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="final class product" />
     <MESSAGE value="final class category" />
     <MESSAGE value="final class cart and order" />
     <MESSAGE value="main class and demonstating" />
-    <option name="LAST_COMMIT_MESSAGE" value="main class and demonstating" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Cart update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
