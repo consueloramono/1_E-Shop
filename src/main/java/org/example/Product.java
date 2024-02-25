@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.List;
+
 public class Product {
     private int id;
     private String name;
@@ -51,5 +53,46 @@ public class Product {
 
     public void setCategory(Category category) {
         this.category = category;
+    }
+    public static Product findProductById(int productId, List<Category> categories) {
+        for (Category category : categories) {
+            for (Product product : category.getProducts()) {
+                if (product.getId() == productId) {
+                    return product;
+                }
+            }
+        }
+        return null;
+    }
+    public static void searchProductsByName(String partialName, List<Category> categories) {
+        boolean found = false;
+        for (Category category : categories) {
+            for (Product product : category.getProducts()) {
+                if (product.getName().toLowerCase().startsWith(partialName.toLowerCase())) {
+                    System.out.println(product.getName() + " (" + category.getName() + "): " + product.getPrice() + " грн");
+                    found = true;
+                }
+            }
+        }
+        if (!found) {
+            System.out.println("Товари з частковою назвою \"" + partialName + "\" не знайдено.");
+        }
+    }
+
+
+    public static void searchProductsByCategory(String categoryName, List<Category> categories) {
+        boolean found = false;
+        for (Category category : categories) {
+            if (category.getName().equalsIgnoreCase(categoryName)) {
+                for (Product product : category.getProducts()) {
+                    System.out.println(product.getName() + " (" + category.getName() + "): " + product.getPrice() + " грн");
+                }
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            System.out.println("Товари у категорії \"" + categoryName + "\" не знайдено.");
+        }
     }
 }
